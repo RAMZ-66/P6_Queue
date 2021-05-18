@@ -77,6 +77,8 @@ namespace P6_Queue
                         queueClientes.CompraDeCadaCliente();
                     }
 
+                    // Clientes atendidos en total
+
                     else if (opcion == "6")
                     {
                         Console.WriteLine($"El total de clientes atendidos es {queueClientes.ClientesAtendidos()}");
